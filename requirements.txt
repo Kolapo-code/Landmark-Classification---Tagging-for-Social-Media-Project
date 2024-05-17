@@ -1,7 +1,8 @@
 opencv-python-headless==4.5.3.56
+python3-dev python3-setuptools python3-wheel libjpeg-dev zlib1g-dev
 matplotlib==3.4.3
 numpy==1.21.2
-pillow==7.0.0
+pillow==8.0.0
 bokeh==2.1.1
 torch==1.11.0
 torchvision==0.12.0
@@ -11,3 +12,10 @@ livelossplot==0.5.4
 pytest==7.1.1
 pandas==1.3.5
 seaborn==0.11.2
+bqplot
+ipympl
+ipyvolume
+scipy
+voila
+setuptools wheel
+--no-cache-dir -r requirements.txt
