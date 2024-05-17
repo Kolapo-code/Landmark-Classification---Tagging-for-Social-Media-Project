@@ -16,4 +16,3 @@ ipympl
 ipyvolume
 scipy
 voila
-pip install --no-cache-dir -r requirements.txt
