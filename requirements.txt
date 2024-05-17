@@ -16,5 +16,4 @@ ipympl
 ipyvolume
 scipy
 voila
-setuptools wheel
 --no-cache-dir -r requirements.txt
