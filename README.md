@@ -93,3 +93,9 @@ Click on the "Submit Project" button in the classroom and follow the instruction
 ## Dataset Info
 
 The landmark images are a subset of the Google Landmarks Dataset v2.
+
+### Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2FKolapo-code%2FLandmark-Classification-and-Tagging-for-Social-Media-Project.git/main?labpath=submission_2024-05-08T18h07m.tar%2Fapp.html)
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2FKolapo-code%2FLandmark-Classification-and-Tagging-for-Social-Media-Project.git/main?labpath=submission_2024-05-08T18h07m.tar%2Fapp.html
