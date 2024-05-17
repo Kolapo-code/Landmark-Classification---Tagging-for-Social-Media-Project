@@ -96,6 +96,7 @@ The landmark images are a subset of the Google Landmarks Dataset v2.
 
 ### Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2FKolapo-code%2FLandmark-Classification-and-Tagging-for-Social-Media-Project.git/main?labpath=submission_2024-05-08T18h07m.tar%2Fapp.html)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Kolapo-code/Landmark-Classification-and-Tagging-for-Social-Media-Project.git/main)
+
 .. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2FKolapo-code%2FLandmark-Classification-and-Tagging-for-Social-Media-Project.git/main?labpath=submission_2024-05-08T18h07m.tar%2Fapp.html
+ :target: https://mybinder.org/v2/gh/Kolapo-code/Landmark-Classification-and-Tagging-for-Social-Media-Project.git/main
