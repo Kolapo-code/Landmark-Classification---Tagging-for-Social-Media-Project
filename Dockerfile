@@ -16,6 +16,9 @@ RUN apt-get update && \
         libpng-dev \
         libfreetype6-dev \
         pkg-config \
+        gfortran \
+        libopenblas-dev \
+        liblapack-dev \
         python3-venv && \
     rm -rf /var/lib/apt/lists/*
 
@@ -23,7 +26,6 @@ RUN apt-get update && \
 RUN python3 -m venv /opt/venv
 
 # Activate the virtual environment and install pip dependencies
-# Use the '&&\' to run multiple commands within a single RUN statement
 RUN /opt/venv/bin/pip install --upgrade pip && \
     /opt/venv/bin/pip install --no-cache-dir virtualenv
 
