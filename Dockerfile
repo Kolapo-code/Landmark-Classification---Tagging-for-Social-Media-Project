@@ -25,9 +25,8 @@ RUN apt-get update && \
 # Create a virtual environment
 RUN python3 -m venv /opt/venv
 
-# Activate the virtual environment and install pip dependencies
-RUN /opt/venv/bin/pip install --upgrade pip && \
-    /opt/venv/bin/pip install --no-cache-dir virtualenv
+# Activate the virtual environment and upgrade pip
+RUN /opt/venv/bin/pip install --upgrade pip
 
 # Copy requirements.txt
 COPY requirements.txt .
