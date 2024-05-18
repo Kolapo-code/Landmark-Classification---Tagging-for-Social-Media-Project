@@ -13,7 +13,6 @@ pandas==1.3.5
 ipython==8.15.0
 seaborn==0.11.2
 traitlets==5.4.0
-cache purge
 bqplot
 ipympl
 ipyvolume
