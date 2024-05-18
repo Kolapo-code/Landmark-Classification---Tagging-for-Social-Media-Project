@@ -6,20 +6,19 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Set working directory
 WORKDIR /app
 
-# Install apt-utils and other required packages
+# Install system dependencies
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends apt-utils && \
     apt-get install -y --no-install-recommends \
-        build-essential \
-        libjpeg-dev \
-        zlib1g-dev \
-        libpng-dev \
-        libfreetype6-dev \
-        pkg-config \
-        gfortran \
-        libopenblas-dev \
-        liblapack-dev \
-        python3-venv && \
+    apt-utils \
+    build-essential \
+    gfortran \
+    libopenblas-dev \
+    liblapack-dev \
+    libjpeg-dev \
+    zlib1g-dev \
+    libpng-dev \
+    libfreetype6-dev \
+    pkg-config && \
     rm -rf /var/lib/apt/lists/*
 
 # Create a virtual environment
