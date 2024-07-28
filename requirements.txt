@@ -1,4 +1,3 @@
-opencv-python-headless==4.5.3.56
 matplotlib==3.4.3
 numpy==1.21.2
 pillow==8.0.0
@@ -13,8 +12,3 @@ pandas==1.3.5
 ipython==8.15.0
 seaborn==0.11.2
 traitlets==5.4.0
-bqplot
-ipympl
-ipyvolume
-scipy
-voila
